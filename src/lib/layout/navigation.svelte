@@ -6,7 +6,7 @@
     let mobileMenu = false;
 </script>
 
-<main class="md:w-1/4 p-3 w-full md:h-full">
+<main class="md:w-1/4 p-3 w-full md:h-full md:border-4 md:mt-2 md:rounded-xl">
     <button
         class="h-10 flex md:hidden justify-center items-center w-full gap-2 rounded-lg mb-5 border"
         on:click={toggle}
