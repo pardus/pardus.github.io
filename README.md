@@ -1,4 +1,4 @@
-# Proje İsmi
+# Pardus Github IO
 
 Bu, [Pardus](https://www.pardus.org.tr/) için hazırlanmış bir GitHub sayfasıdır. Projede [Svelte](https://svelte.dev/), [Tailwind CSS](https://tailwindcss.com/) ve [mdsvex](https://mdsvex.com/) kullanılmıştır.
 
