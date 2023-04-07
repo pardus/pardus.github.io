@@ -1,0 +1,30 @@
+{
+    "tr": [
+        {
+            "url": "/wiki",
+            "label": "Belgeler"
+        },
+        {
+            "url": "/download",
+            "label": "Indir"
+        },
+        {
+            "url": "/contact",
+            "label": "İletişim"
+        }
+    ],
+    "en": [
+        {
+            "url": "/wiki",
+            "label": "Wiki"
+        },
+        {
+            "url": "/download",
+            "label": "Download"
+        },
+        {
+            "url": "/contact",
+            "label": "Contact"
+        }
+    ]
+}

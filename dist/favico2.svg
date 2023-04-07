@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="184.57333mm"
+   height="163.61833mm"
+   viewBox="0 0 184.57333 163.61833"
+   version="1.1"
+   id="svg175"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="favico2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview177"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.37371282"
+     inkscape:cx="408.06735"
+     inkscape:cy="429.47416"
+     inkscape:window-width="900"
+     inkscape:window-height="1048"
+     inkscape:window-x="2220"
+     inkscape:window-y="555"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs172" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.10547148,-35.362463)">
+    <g
+       id="g10">
+      <polygon
+         class="cls-3"
+         points="1776.9,1139.7 2035.2,1139.7 1935.4,1245.2 1939.4,1331 2137.8,1409.5 2207.8,1343.1 2045,1212.3 2235.5,1316.8 2254.8,1298.5 2143.8,1073.9 1906,989 1668.2,1073.9 1557.2,1298.5 1576.6,1316.8 1767,1212.3 1604.3,1343.1 1674.3,1409.5 1872.6,1331 1876.6,1245.2 "
+         id="polygon135"
+         style="fill:#ff8100"
+         transform="matrix(0.26458333,0,0,0.26458333,-411.90369,-226.31045)" />
+      <polygon
+         class="cls-3"
+         points="1906,1375.9 1905.9,1375.9 1753.5,1430.3 1753.5,1514.3 1905.9,1607.4 1906,1607.3 1906.1,1607.4 2058.5,1514.3 2058.5,1430.3 1906.1,1375.9 "
+         id="polygon133"
+         style="fill:#ff8100"
+         transform="matrix(0.26458333,0,0,0.26458333,-411.90369,-226.31045)" />
+    </g>
+  </g>
+</svg>

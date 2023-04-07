@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0
+}
+
+:root {
+    --pardus-dark: rgba(57, 99, 119, 1);
+    --pardus-dark-alpha: rgba(57, 99, 119, 0.2);
+}
+
+@font-face {
+    font-family: 'Pardus';
+    src: url("./lib/data/pardus.ttf") format("truetype");
+}
+
+
+.pardus-title {
+    font-family: Pardus;
+}
+
+fieldset {
+    border: 2px solid var(--pardus-dark-alpha);
+    margin: auto 0.5rem
+}
+
+@layer base {
+    pre code {
+        @apply block bg-gray-100 p-4 overflow-auto font-mono text-sm leading-relaxed;
+    }
+}
+
+@layer base {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-bold leading-tight mt-6 mb-3;
+    }
+
+    h1 {
+        @apply text-4xl;
+    }
+
+    h2 {
+        @apply text-3xl;
+    }
+
+    h3 {
+        @apply text-2xl;
+    }
+
+    h4 {
+        @apply text-xl;
+    }
+
+    h5 {
+        @apply text-lg;
+    }
+
+    h6 {
+        @apply text-base;
+    }
+}
+
+@layer base {
+    table {
+        @apply min-w-full divide-y divide-gray-200;
+    }
+
+    thead th {
+        @apply px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider;
+    }
+
+    tbody tr {
+        @apply bg-white;
+    }
+
+    tbody tr:nth-child(even) {
+        @apply bg-gray-50;
+    }
+
+    tbody td {
+        @apply px-6 py-4 whitespace-nowrap text-sm text-gray-500;
+    }
+}
+
+@layer base {
+    blockquote {
+        @apply border-l-4 border-gray-400 pl-4 py-2 my-6 text-gray-600 italic;
+    }
+
+    blockquote p:last-child {
+        @apply mb-0;
+    }
+}

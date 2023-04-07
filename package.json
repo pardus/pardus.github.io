@@ -1,0 +1,32 @@
+{
+  "name": "test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "run-p dev:*",
+    "dev:routify": "routify",
+    "dev:vite": "vite",
+    "preview": "vite preview",
+    "build": "run-s build:*",
+    "build:routify": "routify -b",
+    "build:vite": "vite build"
+  },
+  "devDependencies": {
+    "@roxi/routify": "^2.18.11",
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "autoprefixer": "^10.4.7",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.14",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^3.55.1",
+    "svelte-preprocess": "^4.10.7",
+    "tailwindcss": "^3.1.5",
+    "vite": "^4.2.0",
+    "mdsvex": "^0.10.6"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "mdsvex": "^0.10.6"
+  }
+}

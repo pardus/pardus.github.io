@@ -1,0 +1,11 @@
+{
+  "pages": "src/pages",
+  "sourceDir": "public",
+  "routifyDir": ".routify",
+  "ignore": "",
+  "dynamicImports": true,
+  "singleBuild": false,
+  "noHashScroll": false,
+  "extensions": "html,svelte,md,svx",
+  "distDir": "dist"
+}
