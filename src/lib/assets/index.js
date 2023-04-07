@@ -3,7 +3,7 @@ import Hero from "./hero.png"
 import Pardus1 from "./pardus1.png"
 import Pardus2 from "./pardus2.png"
 
-import PardusImageWrite from "./pardus-image-writer.svg"
+import PardusImageWriter from "./pardus-image-writer.svg"
 import PardusJavaInstaller from "./pardus-java-installer.svg"
 import PardusMyComputer from "./pardus-mycomputer.svg"
 import PardusPackageInstaller from "./pardus-package-installer.svg"
@@ -32,7 +32,7 @@ import GithubContact from "./github_contact.png"
 
 export {
     Logo, Hero, Pardus1, Pardus2,
-    PardusImageWrite,
+    PardusImageWriter,
     PardusJavaInstaller,
     PardusMyComputer,
     PardusPackageInstaller,
@@ -41,5 +41,5 @@ export {
     DownloadCD, DownloadCD2, DownloadKey,
     Youtube, Twitter, Medium, Linkedin, Github, Facebook, Discord,
     Gonullu, Talep,
-MailGif,GithubContact,MailSVG
+    MailGif, GithubContact, MailSVG
 }

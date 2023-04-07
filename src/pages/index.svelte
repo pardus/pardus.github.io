@@ -28,7 +28,7 @@
     </legend>
     <div class="flex flex-wrap flex-row">
         {#each IndexPageData[$language]["apps"] as app}
-            <div class="md:w-1/3 flex  p-6">
+            <div class="md:w-1/3 flex p-6">
                 <img src={app.icon} alt="" class="h-16 w-1/3" />
                 <div class="flex flex-col w-full ml-3">
                     <b>{app.title}</b>
@@ -43,9 +43,6 @@
 <Footer />
 
 <style>
-    main {
-        max-height: calc(100vh - 60px);
-    }
     .pardus2 {
         rotate: -10deg;
     }

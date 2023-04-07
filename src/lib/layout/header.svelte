@@ -31,7 +31,7 @@
                         $language = $language == "en" ? "tr" : "en";
                     }}
                 />
-                <span class="slider">{$language.toUpperCase()}</span>
+                <span class="slider"> {$language == "en" ? "TR" : "EN"} </span>
             </label>
         </div>
 
@@ -84,7 +84,9 @@
                             $language = $language == "en" ? "tr" : "en";
                         }}
                     />
-                    <span class="slider">{$language.toUpperCase()}</span>
+                    <span class="slider">
+                        {$language == "en" ? "TR" : "EN"}
+                    </span>
                 </label>
             </ul>
         </div>

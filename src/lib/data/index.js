@@ -1,7 +1,8 @@
 import HeaderData from "./header.json"
-import IndexPageData from "./indexpage.json"
+
+import { datas as IndexPageData } from "./indexpage.svelte"
 import ContactPageData from "./contact.json"
-import DownloadPageData from "./download.json"
+import { datas as DownloadPageData } from "./download.svelte"
 export {
     HeaderData, IndexPageData, ContactPageData, DownloadPageData
 }

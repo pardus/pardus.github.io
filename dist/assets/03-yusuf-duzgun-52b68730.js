@@ -1,0 +1,1 @@
+import{S as o,i as u,s as r,e as i,d as c,n,g as f}from"./index-27c6b554.js";function l(s){let e;return{c(){e=i("h1"),e.textContent="deneme mr yusuf"},m(t,a){c(t,e,a)},p:n,i:n,o:n,d(t){t&&f(e)}}}class d extends o{constructor(e){super(),u(this,e,null,l,r,{})}}export{d as default};
