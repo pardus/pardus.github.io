@@ -1,0 +1,1 @@
+import{S as o,i as r,s as i,e as l,d as c,n as s,g as p}from"./index-c0a0a26e.js";function u(n){let e;return{c(){e=l("h1"),e.textContent="release notes index page"},m(t,a){c(t,e,a)},p:s,i:s,o:s,d(t){t&&p(e)}}}class f extends o{constructor(e){super(),r(this,e,null,u,i,{})}}export{f as default};

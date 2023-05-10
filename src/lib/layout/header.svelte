@@ -1,7 +1,6 @@
 <script>
     import { Logo } from "$assets";
     import { HeaderData } from "$data";
-    import { language } from "$store";
     import { clickOutside } from "$helpers";
     function handleClickOutside(event = Event) {
         if (mobileMenu) mobileMenu = !mobileMenu;
@@ -18,21 +17,9 @@
             </span>
         </a>
         <div class="gap-5 hidden md:flex">
-            {#each HeaderData[$language] as data}
+            {#each HeaderData as data}
                 <a href={data.url} class="text-white">{data.label}</a>
             {/each}
-
-            <label class="switch relative inline-block w-10 text-white">
-                <input
-                    type="checkbox"
-                    class="hidden"
-                    checked
-                    on:input={() => {
-                        $language = $language == "en" ? "tr" : "en";
-                    }}
-                />
-                <span class="slider"> {$language == "en" ? "TR" : "EN"} </span>
-            </label>
         </div>
 
         <div class="relative md:hidden" data-te-dropdown-ref>
@@ -68,26 +55,11 @@
                 aria-labelledby="dropdownMenuButton1"
                 data-te-dropdown-menu-ref
             >
-                {#each HeaderData[$language] as data}
+                {#each HeaderData as data}
                     <li class="py-2 px-3 border-b">
                         <a href={data.url} class="text-lg">{data.label}</a>
                     </li>
                 {/each}
-                <label
-                    class="switch relative inline-block w-10 py-2 px-3 border-b"
-                >
-                    <input
-                        type="checkbox"
-                        class="hidden"
-                        checked
-                        on:input={() => {
-                            $language = $language == "en" ? "tr" : "en";
-                        }}
-                    />
-                    <span class="slider">
-                        {$language == "en" ? "TR" : "EN"}
-                    </span>
-                </label>
             </ul>
         </div>
     </main>

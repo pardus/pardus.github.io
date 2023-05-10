@@ -1,62 +1,30 @@
-{
-    "en": [
-        {
-            "title": "We can use E-Mail 😁",
-            "description": "You can contact us with the email addresses below regarding anything you would like to know.",
-            "datas": [
-                {
-                    "url": "mailto:dev@pardus.org.tr",
-                    "label": "dev@pardus.org.tr"
-                },
-                {
-                    "url": "mailto:gelistirici@pardus.org.tr",
-                    "label": "gelistirici@pardus.org.tr"
-                },
-                {
-                    "url": "mailto:aliriza.keskin@pardus.org.tr",
-                    "label": "aliriza.keskin@pardus.org.tr"
-                }
-            ]
-        },
-        {
-            "title": "We are on Github",
-            "description": "You can find our projects on Github. You may explore them, and support us by contributing to their coding and translation.",
-            "datas": [
-                {
-                    "url": "https://github.com/orgs/pardus/repositories",
-                    "label": "https://github.com/orgs/pardus/repositories"
-                }
-            ]
-        }
-    ],
-    "tr": [
-        {
-            "title": "E-posta kullanabiliyoruz 😁",
-            "description": "Aşağıdaki e-posta adresleri ile merak ettiğiniz herhangi bir konuda bize ulaşabilirsiniz.",
-            "datas": [
-                {
-                    "url": "mailto:dev@pardus.org.tr",
-                    "label": "dev@pardus.org.tr"
-                },
-                {
-                    "url": "mailto:gelistirici@pardus.org.tr",
-                    "label": "gelistirici@pardus.org.tr"
-                },
-                {
-                    "url": "mailto:aliriza.keskin@pardus.org.tr",
-                    "label": "aliriza.keskin@pardus.org.tr"
-                }
-            ]
-        },
-        {
-            "title": "Github'da yer alıyoruz.",
-            "description": "Projelerimizi Github'da bulabilirsiniz. Projelerimizi keşfedebilir, kodlama ve çeviri konularında destek olabilirsiniz.",
-            "datas": [
-                {
-                    "url": "https://github.com/orgs/pardus/repositories",
-                    "label": "https://github.com/orgs/pardus/repositories"
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "title": "We can use E-Mail 😁",
+        "description": "You can contact us with the email addresses below regarding anything you would like to know.",
+        "datas": [
+            {
+                "url": "mailto:dev@pardus.org.tr",
+                "label": "dev@pardus.org.tr"
+            },
+            {
+                "url": "mailto:gelistirici@pardus.org.tr",
+                "label": "gelistirici@pardus.org.tr"
+            },
+            {
+                "url": "mailto:aliriza.keskin@pardus.org.tr",
+                "label": "aliriza.keskin@pardus.org.tr"
+            }
+        ]
+    },
+    {
+        "title": "We are on Github",
+        "description": "You can find our projects on Github. You may explore them, and support us by contributing to their coding and translation.",
+        "datas": [
+            {
+                "url": "https://github.com/orgs/pardus/repositories",
+                "label": "https://github.com/orgs/pardus/repositories"
+            }
+        ]
+    }
+]

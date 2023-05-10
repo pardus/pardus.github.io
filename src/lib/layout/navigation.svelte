@@ -6,7 +6,9 @@
     let mobileMenu = false;
 </script>
 
-<main class="md:w-1/4 p-3 w-full md:h-full md:border-4 md:mt-2 md:rounded-xl">
+<main
+    class="md:w-1/4 p-3 w-full md:h-full flex flex-col md:border-4 md:mt-2 md:rounded-xl"
+>
     <button
         class="h-10 flex md:hidden justify-center items-center w-full gap-2 rounded-lg mb-5 border"
         on:click={toggle}
@@ -27,30 +29,32 @@
         </svg>
     </button>
 
-    {#each $layout.children as category}
+    <div>
         <ul
             class:expanded={mobileMenu}
             class:collapsed={!mobileMenu}
-            class="list-disc pl-10 md:block overflow-hidden md:overflow-visible"
+            class="list-disc pl-10 overflow-hidden md:overflow-visible"
         >
-            <li>
-                <a class="capitalize" href={category.path}>
-                    {category.title}
-                </a>
-            </li>
-            {#if category.children.length > 0}
-                <ul class="list-disc pl-5">
-                    {#each category.children as page}
-                        <li>
-                            <a class="capitalize" href={page.path}>
-                                {page.title}
-                            </a>
-                        </li>
-                    {/each}
-                </ul>
-            {/if}
+            {#each $layout.children as category}
+                <li>
+                    <a class="capitalize" href={category.path}>
+                        {category.title}
+                    </a>
+                    {#if category.children.length > 0}
+                        <ul class="list-disc pl-5">
+                            {#each category.children as page}
+                                <li>
+                                    <a class="capitalize" href={page.path}>
+                                        {page.title}
+                                    </a>
+                                </li>
+                            {/each}
+                        </ul>
+                    {/if}
+                </li>
+            {/each}
         </ul>
-    {/each}
+    </div>
 </main>
 
 <style>

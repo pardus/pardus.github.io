@@ -1,12 +1,11 @@
 <script>
-    import { Pardus1, Pardus2 } from "$assets";
+    import { Pardus1, Pardus2, DownloadCloud } from "$assets";
     import { IndexPageData } from "$data";
-    import { language } from "$store";
     import { Footer } from "$layout";
 </script>
 
 <h1 class="text-3xl text-center mt-16">
-    {@html IndexPageData[$language]["title"]}
+    {@html IndexPageData["title"]}
 </h1>
 <div
     class="flex flex-col md:flex-row max-w-5xl justify-evenly items-center mt-16"
@@ -17,17 +16,26 @@
     </div>
     <div class="text-center md:w-2/4 md:mt-0 mt-10">
         <p class="m-3 ml-5 text-lg">
-            {IndexPageData[$language]["description"]}
+            {IndexPageData["description"]}
         </p>
+        <a
+            href="/download"
+            class="flex w-44 mx-auto isoa items-center justify-center gap-2 py-1 px-2 rounded-md text-white isoa"
+        >
+            <span class="font-bold text-xl">
+                {IndexPageData["downloadLabel"]}
+            </span>
+            <!--img src={DownloadCloud} alt="" class="h-10 w-10" /-->
+        </a>
     </div>
 </div>
 
 <fieldset class="mt-20 rounded-xl">
     <legend class="mx-10 px-3">
-        {IndexPageData[$language]["appsHeader"]}
+        {IndexPageData["appsHeader"]}
     </legend>
     <div class="flex flex-wrap flex-row">
-        {#each IndexPageData[$language]["apps"] as app}
+        {#each IndexPageData["apps"] as app}
             <div class="md:w-1/3 flex p-6">
                 <img src={app.icon} alt="" class="h-16 w-1/3" />
                 <div class="flex flex-col w-full ml-3">
@@ -40,6 +48,7 @@
         {/each}
     </div>
 </fieldset>
+
 <Footer />
 
 <style>
@@ -51,5 +60,8 @@
         rotate: 10deg;
         top: 10%;
         left: 30%;
+    }
+    .isoa {
+        background-color: var(--pardus-dark);
     }
 </style>

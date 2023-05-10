@@ -1,12 +1,12 @@
 <script>
-     import { language } from "$store";
      import { DownloadPageData } from "$data";
+     import LatestReleaseNotes from "../wiki/release-notes/latest.md";
 </script>
 
 <main class="flex flex-col lg:flex-row justify-center gap-5 w-full">
      {#each DownloadPageData as data}
           <fieldset class="mt-10 rounded-xl px-10 pb-5 w-full">
-               <legend class="px-3"> {data.label[$language]} </legend>
+               <legend class="px-3"> {data.label} </legend>
                {#each data.iso as iso}
                     <div
                          class="my-4 flex flex-col md:flex-row md:justify-between"
@@ -16,7 +16,7 @@
                               href={iso.url}
                               class="flex items-center justify-center gap-2 py-1 px-2 rounded-md text-white isoa"
                          >
-                              <span>{data.downloadLabel[$language]}</span>
+                              <span>{data.downloadLabel}</span>
                               <img src={iso.icon} alt="" />
                          </a>
                     </div>
@@ -39,6 +39,13 @@
           </fieldset>
      {/each}
 </main>
+
+<fieldset class="mt-10 rounded-xl px-10 pb-5 mx-1">
+     <legend class="px-3">
+          <a href="/wiki/release-notes"> Release Notes</a>
+     </legend>
+     <LatestReleaseNotes />
+</fieldset>
 
 <style>
      .isoa {

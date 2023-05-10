@@ -2,14 +2,9 @@
     import { DownloadCD, DownloadCD2, DownloadKey } from "$assets";
     export let datas = [
         {
-            label: {
-                en: "Downloadable ISO Files",
-                tr: "ISO Dosyalarını İndir",
-            },
-            downloadLabel: {
-                en: "Download",
-                tr: "İndir",
-            },
+            label: "Downloadable ISO Files",
+
+            downloadLabel: "Download",
             iso: [
                 {
                     label: "Pardus 21.4 Xfce",
@@ -41,14 +36,10 @@
             ],
         },
         {
-            label: {
-                en: "Downloadable Backports ISO Files",
-                tr: "Backports ISO Dosyalarını İndir",
-            },
-            downloadLabel: {
-                en: "Download",
-                tr: "İndir",
-            },
+            label: "Downloadable Backports ISO Files",
+
+            downloadLabel: "Download",
+
             iso: [
                 {
                     label: "Pardus 21.4 Xfce Backports",

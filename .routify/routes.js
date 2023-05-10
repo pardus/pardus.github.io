@@ -1,11 +1,11 @@
 
 /**
- * @roxi/routify 2.18.11
- * File generated Wed Apr 12 2023 12:41:29 GMT+0300 (GMT+03:00)
+ * @roxi/routify 2.18.12
+ * File generated Wed May 10 2023 10:42:31 GMT+0300 (GMT+03:00)
  */
 
-export const __version = "2.18.11"
-export const __timestamp = "2023-04-12T09:41:29.971Z"
+export const __version = "2.18.12"
+export const __timestamp = "2023-05-10T07:42:31.268Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -65,6 +65,28 @@ export const _tree = {
           "path": "/wiki/index",
           "id": "_wiki_index",
           "component": () => import('../src/pages/wiki/index.md').then(m => m.default)
+        },
+        {
+          "isDir": true,
+          "ext": "",
+          "children": [
+            {
+              "ext": "md",
+              "isIndex": true,
+              "isPage": true,
+              "path": "/wiki/release-notes/index",
+              "id": "_wiki_releaseNotes_index",
+              "component": () => import('../src/pages/wiki/release-notes/index.md').then(m => m.default)
+            },
+            {
+              "ext": "md",
+              "isPage": true,
+              "path": "/wiki/release-notes/latest",
+              "id": "_wiki_releaseNotes_latest",
+              "component": () => import('../src/pages/wiki/release-notes/latest.md').then(m => m.default)
+            }
+          ],
+          "path": "/wiki/release-notes"
         },
         {
           "isDir": true,

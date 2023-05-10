@@ -3,6 +3,8 @@
   "/download/index",
   "/index",
   "/wiki/index",
+  "/wiki/release-notes/index",
+  "/wiki/release-notes/latest",
   "/wiki/system/01-installation",
   "/wiki/system/02-after-install",
   "/wiki/system/03-yusuf-duzgun",

@@ -27,7 +27,7 @@ import Talep from "./talep.svg"
 import MailGif from "./mail.gif"
 import MailSVG from "./mail.svg"
 import GithubContact from "./github_contact.png"
-
+import DownloadCloud from "./download-cloud.svg"
 
 
 export {
@@ -38,7 +38,7 @@ export {
     PardusPackageInstaller,
     PardusPowerManager,
     PardusSoftware,
-    DownloadCD, DownloadCD2, DownloadKey,
+    DownloadCD, DownloadCD2, DownloadKey,DownloadCloud,
     Youtube, Twitter, Medium, Linkedin, Github, Facebook, Discord,
     Gonullu, Talep,
     MailGif, GithubContact, MailSVG
