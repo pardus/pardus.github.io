@@ -109,6 +109,10 @@ fieldset {
         @apply list-disc pl-4;
     }
 
+    ol {
+        @apply list-decimal pl-10
+    }
+
     li::before {
         @apply inline-block w-4 mr-2 -ml-4;
     }
