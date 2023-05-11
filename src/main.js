@@ -1,8 +1,9 @@
-import "./app.css";
-import App from "./App.svelte";
+import App from './App.svelte'
+import "./App.css";
 
 const app = new App({
-  target: document.getElementById("app"),
-});
+    target: document.body,
+    hydrate: import.meta.env.ROUTIFY_SSR_ENABLE,
+})
 
-export default app;
+export default app

@@ -1,6 +1,8 @@
-<script>
-    import { Router } from "@roxi/routify";
-    import { routes } from "../.routify/routes";
+<script context="module">
+    import { Router, createRouter } from "@roxi/routify";
+    import routes from "../.routify/routes.default.js";
+
+    const router = createRouter({ routes });
 </script>
 
-<Router {routes} config={{ useHash: true }} />
+<Router {router} />

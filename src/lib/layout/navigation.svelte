@@ -1,5 +1,7 @@
 <script>
-    import { layout } from "@roxi/routify";
+    import { context } from "@roxi/routify";
+    let urls = $context.node.children;
+    console.log(urls);
     const toggle = () => {
         mobileMenu = !mobileMenu;
     };
@@ -33,25 +35,32 @@
         <ul
             class:expanded={mobileMenu}
             class:collapsed={!mobileMenu}
-            class="list-disc pl-10 overflow-hidden md:overflow-visible"
+            class="list-disc overflow-hidden md:overflow-visible"
         >
-            {#each $layout.children as category}
-                <li>
-                    <a class="capitalize" href={category.path}>
-                        {category.title}
-                    </a>
-                    {#if category.children.length > 0}
-                        <ul class="list-disc pl-5">
-                            {#each category.children as page}
-                                <li>
-                                    <a class="capitalize" href={page.path}>
-                                        {page.title}
-                                    </a>
-                                </li>
-                            {/each}
-                        </ul>
-                    {/if}
-                </li>
+            {#each urls as category, index}
+                {#if category.name != "index"}
+                    <li>
+                        <a class="capitalize" href={category.path}>
+                            {index == 0 ? "Wiki" : category.name}
+                        </a>
+                        {#if category.children.length > 0}
+                            <ul class="list-disc">
+                                {#each category.children as page}
+                                    {#if page.name != "index"}
+                                        <li>
+                                            <a
+                                                class="capitalize"
+                                                href={page.path}
+                                            >
+                                                {page.name}
+                                            </a>
+                                        </li>
+                                    {/if}
+                                {/each}
+                            </ul>
+                        {/if}
+                    </li>
+                {/if}
             {/each}
         </ul>
     </div>
