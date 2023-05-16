@@ -1,5 +1,9 @@
 [
     {
+        "url": "/",
+        "label": "Home"
+    },
+    {
         "url": "/wiki",
         "label": "Wiki"
     },

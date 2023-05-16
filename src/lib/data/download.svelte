@@ -7,13 +7,13 @@
             downloadLabel: "Download",
             iso: [
                 {
-                    label: "Pardus 21.4 Xfce",
-                    url: "https://indir.pardus.org.tr/ISO/Pardus21/Pardus-21.4-XFCE-amd64.iso",
+                    label: "Pardus 21.5 Xfce",
+                    url: "https://indir.pardus.org.tr/ISO/Pardus21/Pardus-21.5-XFCE-amd64.iso",
                     icon: DownloadCD,
                 },
                 {
-                    label: "Pardus 21.4 Gnome",
-                    url: "https://indir.pardus.org.tr/ISO/Pardus21/Pardus-21.4-GNOME-amd64.iso",
+                    label: "Pardus 21.5 Gnome",
+                    url: "https://indir.pardus.org.tr/ISO/Pardus21/Pardus-21.5-GNOME-amd64.iso",
                     icon: DownloadCD,
                 },
             ],
@@ -42,13 +42,13 @@
 
             iso: [
                 {
-                    label: "Pardus 21.4 Xfce Backports",
-                    url: "https://indir.pardus.org.tr/ISO/Pardus21backports/Pardus-21.4-XFCE-backports-amd64.iso",
+                    label: "Pardus 21.5 Xfce Backports",
+                    url: "https://indir.pardus.org.tr/ISO/Pardus21backports/Pardus-21.5-XFCE-backports-amd64.iso",
                     icon: DownloadCD2,
                 },
                 {
-                    label: "Pardus 21.4 Gnome Backports",
-                    url: "https://indir.pardus.org.tr/ISO/Pardus21backports/Pardus-21.4-GNOME-backports-amd64.iso",
+                    label: "Pardus 21.5 Gnome Backports",
+                    url: "https://indir.pardus.org.tr/ISO/Pardus21backports/Pardus-21.5-GNOME-backports-amd64.iso",
                     icon: DownloadCD2,
                 },
             ],
