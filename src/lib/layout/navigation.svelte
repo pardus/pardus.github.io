@@ -40,9 +40,11 @@
             {#each urls as category, index}
                 {#if category.name != "index"}
                     <li>
-                        <a class="capitalize" href={category.path}>
-                            {index == 0 ? "Wiki" : category.name}
-                        </a>
+                        {#if category.path != "assets"}
+                            <a class="capitalize" href={category.path}>
+                                {category.name}
+                            </a>
+                        {/if}
                         {#if category.children.length > 0}
                             <ul class="list-disc">
                                 {#each category.children as page}
