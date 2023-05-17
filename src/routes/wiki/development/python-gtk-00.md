@@ -27,6 +27,6 @@ app.run(None)
 ```bash
 python myapp.py
 ```
-![Simple Window](https://github.com/pardus/pardus.github.io/blob/main/src/lib/assets/python-gtk-00-1.png)
+![Simple Window](https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/python-gtk-00-1.png)
 
 * We will go deeper on next posts.
