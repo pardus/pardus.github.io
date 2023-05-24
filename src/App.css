@@ -31,7 +31,8 @@ fieldset {
 
 @layer base {
 
-    /* Style code blocks */
+
+
     pre {
         @apply bg-gray-100 p-4 mb-4;
     }
