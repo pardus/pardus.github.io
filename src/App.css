@@ -30,21 +30,22 @@ fieldset {
 }
 
 @layer base {
-
+    a {
+        color: blue
+    }
 
 
     pre {
-        @apply bg-gray-100 p-4 mb-4;
+        @apply bg-gray-200 p-2 mb-4 whitespace-pre-wrap overflow-auto max-w-full;
     }
 
+    /* Styling the <code> tag */
     code {
-        @apply font-mono;
+        @apply px-2 py-1 bg-gray-200 text-gray-700;
     }
 
-    /* Style inline code */
-    p code {
-        @apply bg-gray-100 px-1 py-0.5 rounded;
-    }
+
+
 
     /* Style horizontal rule */
     hr {
@@ -65,9 +66,11 @@ fieldset {
         @apply text-4xl;
     }
 
+
     h2 {
         @apply text-3xl;
     }
+
 
     h3 {
         @apply text-2xl;
@@ -84,6 +87,32 @@ fieldset {
     h6 {
         @apply text-base;
     }
+
+    h1 code {
+        @apply text-3xl;
+    }
+
+    h2 code {
+        @apply text-2xl;
+    }
+
+    h3 code {
+        @apply text-xl;
+    }
+
+    h4 code {
+        @apply text-lg;
+    }
+
+    h5 code {
+        @apply text-base;
+    }
+
+    h6 code {
+        @apply text-sm;
+    }
+
+
 
     table {
         @apply border-collapse;
@@ -112,6 +141,10 @@ fieldset {
 
     ol {
         @apply list-decimal pl-10
+    }
+
+    li {
+        @apply my-2
     }
 
     li::before {

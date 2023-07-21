@@ -1,1 +1,0 @@
-# deneme mr yusuf

@@ -39,7 +39,7 @@
         >
             {#each urls as category, index}
                 {#if category.name != "index"}
-                    <li>
+                    <li class="my-0">
                         {#if category.path != "assets"}
                             <a class="capitalize" href={category.path}>
                                 {category.name}
@@ -49,7 +49,7 @@
                             <ul class="list-disc">
                                 {#each category.children as page}
                                     {#if page.name != "index"}
-                                        <li>
+                                        <li class="my-0">
                                             <a
                                                 class="capitalize"
                                                 href={page.path}
@@ -77,5 +77,11 @@
     .collapsed {
         transition: max-height 0.5s ease-in-out;
         max-height: 0;
+    }
+    div {
+        height: calc(100vh - 110px);
+    }
+    a {
+        color: black;
     }
 </style>
