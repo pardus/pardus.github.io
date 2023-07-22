@@ -54,7 +54,7 @@
             ],
             keys: [
                 {
-                    label: "backsport m5sums",
+                    label: "backports md5sums",
                     url: "https://indir.pardus.org.tr/ISO/Pardus21backports/MD5SUMS",
                     icon: DownloadKey,
                 },
