@@ -23,7 +23,7 @@ While being visually attractive and user-friendly, it aims to use low system res
 * Graphics processor capable of supporting at least 1024×768 resolution
 
 #### Current Softwares
-* Linux Çekirdeği 6.1
+* Linux Kernel 6.1
 * Firefox 102.14
 * VLC Media Player 3.0.18
 * Evolution 3.46
