@@ -51,7 +51,7 @@
                 use:clickOutside
                 on:click_outside={handleClickOutside}
                 class:hidden={!mobileMenu}
-                class="absolute z-[1000] float-left m-0 right-2 min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700 [&[data-te-dropdown-show]]:block"
+                class="absolute z-[1000] float-left m-0 right-2 min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg dark:bg-neutral-700 [&[data-te-dropdown-show]]:block "
                 aria-labelledby="dropdownMenuButton1"
                 data-te-dropdown-menu-ref
             >
@@ -68,5 +68,8 @@
 <style>
     header {
         background-color: var(--pardus-dark);
+    }
+    a{
+        @apply text-slate-200;
     }
 </style>
