@@ -32,7 +32,7 @@ import DownloadCloud from "./download-cloud.svg"
 
 import Pardus23Light from "./pardus23-0_default-light.svg"
 import Pardus23Dark from "./pardus23-0_default-dark.svg"
-
+import ViewAppGridSymbolic from "./view-app-grid-symbolic.svg"
 
 export {
     Logo, Hero, Pardus1, Pardus2,
@@ -46,5 +46,5 @@ export {
     Youtube, Twitter, Medium, Linkedin, Github, Facebook, Discord,
     Gonullu, Talep,
     MailGif, GithubContact, MailSVG,
-    Pardus23Dark,Pardus23Light
+    Pardus23Dark,Pardus23Light,ViewAppGridSymbolic
 }

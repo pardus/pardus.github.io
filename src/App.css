@@ -12,6 +12,7 @@ body {
 :root {
     --pardus-dark: rgba(57, 99, 119, 1);
     --pardus-dark-alpha: rgba(57, 99, 119, 0.2);
+    --dash-height:48px;
 }
 
 @font-face {
