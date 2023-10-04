@@ -30,8 +30,9 @@ import GithubContact from "./github_contact.png"
 import DownloadCloud from "./download-cloud.svg"
 
 
-// python gtk development images
-import PythonGTK1 from "./python-gtk-00-1.png"
+import Pardus23Light from "./pardus23-0_default-light.svg"
+import Pardus23Dark from "./pardus23-0_default-dark.svg"
+
 
 export {
     Logo, Hero, Pardus1, Pardus2,
@@ -44,5 +45,6 @@ export {
     DownloadCD, DownloadCD2, DownloadKey, DownloadCloud,
     Youtube, Twitter, Medium, Linkedin, Github, Facebook, Discord,
     Gonullu, Talep,
-    MailGif, GithubContact, MailSVG
+    MailGif, GithubContact, MailSVG,
+    Pardus23Dark,Pardus23Light
 }

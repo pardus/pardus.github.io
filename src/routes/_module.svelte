@@ -1,5 +1,8 @@
 <script>
     import { Header } from "$layout";
+    import { context } from "@roxi/routify";
+    export let node;
+    $: console.log($node);
 </script>
 
 <Header />
