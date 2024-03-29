@@ -7,13 +7,13 @@
             downloadLabel: "Download",
             iso: [
                 {
-                    label: "Pardus 23.0 Xfce",
-                    url: "http://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.0-XFCE-amd64.iso",
+                    label: "Pardus 23.1 Xfce",
+                    url: "http://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.1-XFCE-amd64.iso",
                     icon: DownloadCD,
                 },
                 {
-                    label: "Pardus 23.0 Gnome",
-                    url: "http://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.0-GNOME-amd64.iso",
+                    label: "Pardus 23.1 Gnome",
+                    url: "http://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.1-GNOME-amd64.iso",
                     icon: DownloadCD,
                 }
          
