@@ -5,7 +5,7 @@
 </script>
 
 <main class="mt-10">
-  <div class="w-full grid grid-cols-2 gap-5">
+  <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-5">
     {#each DownloadPageData as data}
       <div class="card card-body shadow-xl rounded-md">
         <h1 class="font-bold text-xl">{data.label}</h1>
@@ -20,7 +20,7 @@
         {/each}
 
         <h1 class="mt-5">Keys</h1>
-        <div class="flex gap-3">
+        <div class="flex flex-col md:flex-row gap-3">
           {#each data.keys as key}
             <OsInfo
               label={key.label}

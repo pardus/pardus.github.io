@@ -1,4 +1,4 @@
-<main class="w-full mx-auto py-12 md:py-20">
+<main class="w-full p-5 md:mx-auto py-12 md:py-20">
   <div class="space-y-6">
     <div class="space-y-2">
       <h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

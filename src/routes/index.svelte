@@ -30,26 +30,24 @@
   </div>
 </div>
 
-<fieldset class="my-20 mx-5 md:mx-auto rounded-xl">
-  <legend class="mx-10 mb-5 px-3 text-center text-2xl">
-    {IndexPageData["appsHeader"]}
-  </legend>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-    {#each IndexPageData["apps"] as app}
-      <a
-        href={app.url}
-        class="flex flex-col p-6 bg-white dark:bg-slate-800 rounded-xl shadow-md"
-      >
-        <img src={app.icon} alt="" class="h-16 w-16 mx-auto mb-3" />
-        <div class="text-center">
-          <b>{app.title}</b>
-          <span class="block mt-2">
-            {app.description}
-          </span>
-        </div>
-      </a>
-    {/each}
-  </div>
-</fieldset>
+<h1 class="m-10 px-3 text-center text-2xl">
+  {IndexPageData["appsHeader"]}
+</h1>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 md:p-0">
+  {#each IndexPageData["apps"] as app}
+    <a
+      href={app.url}
+      class="flex flex-col p-6 bg-white dark:bg-slate-800 rounded-xl shadow-md"
+    >
+      <img src={app.icon} alt="" class="h-16 w-16 mx-auto mb-3" />
+      <div class="text-center">
+        <b>{app.title}</b>
+        <span class="block mt-2">
+          {app.description}
+        </span>
+      </div>
+    </a>
+  {/each}
+</div>
 
 <Footer />
