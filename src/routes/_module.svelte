@@ -1,11 +1,14 @@
 <script>
-    import { Header } from "$layout";
-    import { context } from "@roxi/routify";
-    export let node;
-    $: console.log($node);
+  import { Header } from "$layout";
 </script>
 
-<Header />
 <main class="max-w-6xl mx-auto">
-    <slot />
+  <Header />
+  <slot />
 </main>
+
+<style>
+  h1 {
+    @apply text-xl;
+  }
+</style>
