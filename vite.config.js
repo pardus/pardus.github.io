@@ -11,9 +11,7 @@ export default defineConfig({
   clearScreen: false,
 
   plugins: [
-    routify({
-      ssr: { enable: !!production },
-    }),
+    routify(),
     svelte({
       compilerOptions: {
         dev: !production,
