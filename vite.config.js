@@ -12,8 +12,8 @@ export default defineConfig({
 
   plugins: [
     routify({
-      ssr: {
-        enable: !!production,
+      render: {
+        ssg: true,
       },
     }),
     svelte({
