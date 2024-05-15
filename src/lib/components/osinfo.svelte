@@ -1,5 +1,4 @@
 <script>
-  import { IconDownload } from "@tabler/icons-svelte";
   export let label;
   export let size;
   export let href;
