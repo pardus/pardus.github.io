@@ -6,7 +6,10 @@
 <div class="navbar bg-base-100 shadow-lg rounded-lg">
   <ul class="flex-1 menu menu-horizontal">
     <li>
-      <a href="/" class="flex items-center">
+      <a
+        href="/"
+        class="flex items-center hover:bg-inherit focus:bg-inherit active:bg-inherit"
+      >
         <img src={Logo} alt="" class="h-10 w-10" />
         <span class="pardus-title text-4xl ml-2"> Pardus </span>
       </a>
