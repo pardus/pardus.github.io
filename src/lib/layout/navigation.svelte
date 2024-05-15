@@ -3,11 +3,10 @@
   import WikiLink from "../components/wikiLink.svelte";
   import { IconArrowBackUp } from "@tabler/icons-svelte";
 
-  let urls = $context.node.children;
-  const developmentURLS = urls.filter((url) =>
-    url?.id.includes("development")
-  )[0];
-  const noteURLS = urls.filter((url) => url?.id.includes("note"))[0];
+  let urls = $context.node.children.filter(
+    (url) => url.name != "index" && url.name != "default-layout"
+  );
+  console.log(urls);
 </script>
 
 <div class="drawer block md:hidden">
@@ -26,11 +25,10 @@
     ></label>
     <ul class="menu menu-xs h-screen bg-base-200 max-w-xs w-full border-right">
       <li class="flex-1">
-        {#if noteURLS?.children?.length > 0}
-          <WikiLink NodeURLs={noteURLS} />
-        {/if}
-        {#if developmentURLS?.children?.length > 0}
-          <WikiLink NodeURLs={developmentURLS} />
+        {#if urls?.length > 0}
+          {#each urls as url}
+            <WikiLink NodeURLs={url} />
+          {/each}
         {/if}
       </li>
       <li>
@@ -46,12 +44,9 @@
   class="menu menu-xs h-screen bg-base-200 max-w-xs w-full border-right hidden md:flex"
 >
   <li class="flex-1">
-    {#if noteURLS?.children?.length > 0}
-      <WikiLink NodeURLs={noteURLS} />
-    {/if}
-    {#if developmentURLS?.children?.length > 0}
-      <WikiLink NodeURLs={developmentURLS} />
-    {/if}
+    {#each urls as url}
+      <WikiLink NodeURLs={url} />
+    {/each}
   </li>
   <li>
     <a href="/" class="w-full flex justify-center btn btn-info">
