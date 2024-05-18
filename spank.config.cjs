@@ -1,8 +1,5 @@
 module.exports = {
-  depth: 3,
-  sitemap: [
-    "/wiki/development",
-    "/wiki/projects",
-    "/wiki/release-notes"
-  ]
+  depth: 5,
+  inlineDynamicImports: true,
+  sitemap:["/sitemap"]
 }
