@@ -27,20 +27,24 @@ $ gcc -o main main.c
 
 There are three ways to comment in C code:
 
+for single-line comments:
+
 ```c
-    // for single-line comments:
-
 // This is a comment line.
+```
 
-    /* for multi-line comments: */
+for multi-line comments:
 
+```c
 /* This
    is
    a
    comment */
+```
 
-    #if 0 for conditional comments:
+`#if 0` for conditional comments:
 
+```c
 #if 0
 This is a
 comment
