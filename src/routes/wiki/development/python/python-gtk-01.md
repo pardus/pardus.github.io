@@ -1,4 +1,4 @@
-#### 26.05.2023 - [Osman Coskun](https://github.com/osmancoskun) 
+#### 2023.05.26 - [Osman Coskun](https://github.com/osmancoskun) 
 
 # Utilizing GTK Containers for Linux GUI Application Development with Python
 
