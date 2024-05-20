@@ -1,4 +1,4 @@
-#### 26.05.2023 - [Osman Coskun](https://github.com/osmancoskun) 
+#### 2023.05.26 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Utilizing GTK Containers for Linux GUI Application Development with Python
 
@@ -52,7 +52,6 @@ app.run(None)
 
 Now, let's create a button called Button:
 
-
 ```python
 button = Gtk.Button(label='Button')
 ```
@@ -73,7 +72,6 @@ box.append(button)
 
 Currently, we have a box with a button in it. We can set this container as a child of our application:
 
-
 ```python
 win.set_child(box)
 ```
@@ -85,6 +83,7 @@ To adjust the size of our application window, we can set a fixed size by definin
 ```python
 win.set_size_request(200, 200)
 ```
+
 ![](https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/python-gtk-01-2.png)
 
 Below is the complete code:
