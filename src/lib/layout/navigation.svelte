@@ -15,7 +15,7 @@
     <!-- Page content here -->
     <label
       for="my-drawer"
-      class="btn btn-primary drawer-button w-full rounded-none"
+      class="btn btn-info drawer-button w-full rounded-none"
     >
       Open Navigation
     </label>
