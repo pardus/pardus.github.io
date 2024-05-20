@@ -1,3 +1,12 @@
+---
+layout: default
+title:  "Utilizing GTK Containers for Linux GUI Application Development with Python"
+date:   2023-05-26 00:00:00
+cover_image: "https://raw.githubusercontent.com/sharmaabhishekk/sharmaabhishekk.github.io/master/images/cover.png"
+categories: main
+tag: "advanced"
+author: "Osman Coskun"
+---
 #### 2023.05.26 - [Osman Coskun](https://github.com/osmancoskun) 
 
 # Utilizing GTK Containers for Linux GUI Application Development with Python

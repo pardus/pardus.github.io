@@ -1,3 +1,12 @@
+---
+layout: default
+title:  "Developing Linux GUI Applications with Python and GTK4"
+date:   2023-05-12 00:00:00
+cover_image: "https://raw.githubusercontent.com/sharmaabhishekk/sharmaabhishekk.github.io/master/images/cover.png"
+categories: main
+tag: "advanced"
+author: "Osman Coskun"
+---
 #### 2023.05.12 - [Osman Coskun](https://github.com/osmancoskun) 
 # Developing Linux GUI Applications with Python and GTK4 
 
