@@ -1,0 +1,59 @@
+/* Style for .token */
+.token {
+    color: #d2691e; /* Chocolate color for tokens */
+}
+
+/* Style for .function */
+.function {
+    color: #ff4500; /* Orange red color for functions */
+}
+
+/* Style for .property */
+.property {
+    color: #2e8b57; /* Sea green color for properties */
+}
+
+/* Style for .directive */
+.directive {
+    color: #b22222; /* Firebrick color for directives */
+}
+
+/* Style for .macro */
+.macro {
+    color: #8a2be2; /* Blue violet color for macros */
+}
+
+/* Style for .string */
+.string {
+    color: #4682b4; /* Steel blue color for strings */
+}
+
+/* Style for .keyword */
+.keyword {
+    color: #1e90ff; /* Dodger blue color for keywords */
+}
+
+/* Style for .operator */
+.operator {
+    color: #ff1493; /* Deep pink color for operators */
+}
+
+/* Style for .number */
+.number {
+    color: #cd853f; /* Peru color for numbers */
+}
+
+/* Style for .parameter */
+.parameter {
+    color: #9370db; /* Medium purple color for parameters */
+}
+
+/* Style for .variable */
+.variable {
+    color: #ff00ff; /* Magenta color for variables */
+}
+
+/* Style for .comment */
+.comment {
+    color: #32cd32; /* Lime green color for comments */
+}

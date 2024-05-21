@@ -1,6 +1,7 @@
 <script>
   import { Navigation } from "$layout";
   import "$lib/github-markdown.css";
+  import "$lib/github-markdown-code.css";
 </script>
 
 <!-- routify:meta reset -->
