@@ -1,5 +1,6 @@
-# Ptk Documentation: ToggleButton Widget
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
+# Ptk Documentation: ToggleButton Widget
 
 ## ToggleButton Widget
 
@@ -21,3 +22,4 @@ from libpardus import Ptk
 
 # Create a ToggleButton instance
 toggle_button = Ptk.ToggleButton()
+```

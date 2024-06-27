@@ -1,5 +1,6 @@
-# Ptk Documentation: ApplicationWindow Widget
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
+# Ptk Documentation: ApplicationWindow Widget
 
 ## ApplicationWindow Widget
 
@@ -30,3 +31,4 @@ window = Ptk.ApplicationWindow(
     height=600,
     width=800,
 )
+```

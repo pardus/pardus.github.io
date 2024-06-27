@@ -1,3 +1,5 @@
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
+
 # Ptk Documentation: Box Widget
 
 ## Box Widget
@@ -38,6 +40,3 @@ box = Ptk.Box(orientation="horizontal", homogeneous=True, spacing=10,children=[l
 
 
 ```
-
-
-

@@ -1,3 +1,5 @@
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
+
 # Ptk Documentation: Stack Widget
 
 ## Stack Widget
@@ -17,3 +19,4 @@ from libpardus import Ptk
 
 # Create a Stack instance
 stack = Ptk.Stack()
+```

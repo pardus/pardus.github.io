@@ -1,5 +1,4 @@
-# Ptk Documentation: Scale Widget
-
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)# Ptk Documentation: Scale Widget
 
 ## Scale Widget
 
@@ -38,3 +37,4 @@ scale = Ptk.Scale(
     round_digits=1,
     orientation="horizontal",
 )
+```

@@ -1,3 +1,5 @@
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
+
 # Introducing LibPardus: Your Python Gateway to the Pardus Universe
 
 <img src="https://raw.githubusercontent.com/pardus/pardus.github.io/097d38fa01966c7a95164be9bd3e42dacfc0080f/src/lib/assets/logo.svg" alt="pardus" width="200"/>

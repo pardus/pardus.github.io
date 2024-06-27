@@ -1,5 +1,6 @@
-# Ptk Documentation: AboutWindow Widget
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
+# Ptk Documentation: AboutWindow Widget
 
 ## AboutWindow Widget
 
@@ -51,3 +52,4 @@ about_window = Ptk.AboutWindow(
 
 # Display the AboutWindow
 about_window.show()
+```

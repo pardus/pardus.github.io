@@ -1,5 +1,6 @@
-# Ptk Documentation: Gtk and Adw Settings
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
+# Ptk Documentation: Gtk and Adw Settings
 
 ## Gtk and Adw Settings
 
@@ -27,3 +28,4 @@ orientation_horizontal = settings["horizontal"]
 
 # Use the fill alignment setting
 alignment_fill = settings["fill"]
+```

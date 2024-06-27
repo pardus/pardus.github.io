@@ -6,7 +6,6 @@
   let urls = $context.node.children.filter(
     (url) => url.name != "index" && url.name != "default-layout"
   );
-  console.log(urls);
 </script>
 
 <div class="drawer block md:hidden">
@@ -41,14 +40,16 @@
   </div>
 </div>
 <ul
-  class="menu menu-xs h-screen bg-base-200 max-w-xs w-full border-right hidden md:flex"
+  class="menu menu-xs h-screen bg-base-200 max-w-xs w-full border-right hidden md:flex md:flex-col overflow-y-auto"
 >
-  <li class="flex-1">
+  <div class="pardus-navigation">
     {#each urls as url}
-      <WikiLink NodeURLs={url} />
+      <li class="">
+        <WikiLink NodeURLs={url} />
+      </li>
     {/each}
-  </li>
-  <li>
+  </div>
+  <li class="mt-auto">
     <a href="/" class="w-full flex justify-center btn btn-info">
       <IconArrowBackUp class="w-5 h-5" />
       Return Home
@@ -59,5 +60,9 @@
 <style>
   a {
     font-size: 16px;
+  }
+  .pardus-navigation {
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
   }
 </style>

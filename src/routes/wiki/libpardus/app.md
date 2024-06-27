@@ -1,3 +1,5 @@
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
+
 # Ptk Documentation: App Widget
 
 ## App Widget
@@ -29,3 +31,4 @@ app = Ptk.App(
     width=800,
     css_file_path="path/to/css/file.css",
 )
+```

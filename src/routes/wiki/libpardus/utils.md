@@ -1,8 +1,10 @@
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
+
 # Ptk Documentation: Utils Functions
 
 ## Introduction
-> This documentation focuses on the `utils` class, which contains various utility functions.
 
+> This documentation focuses on the `utils` class, which contains various utility functions.
 
 <br>
 
@@ -80,7 +82,6 @@ css_file_path = "/path/to/styles.css"
 utils.load_css(css_file_path)
 ```
 
-
 <br>
 
 # Function: `gsettings_set`
@@ -110,7 +111,6 @@ result = utils.gsettings_set(schema_name, key_name, value_to_set)
 print(result)  # Output: True if the setting was successfully updated, otherwise False
 ```
 
-
 <br>
 
 # Function: `gsettings_get`
@@ -137,4 +137,3 @@ key_name = "setting_key"
 value = utils.gsettings_get(schema_name, key_name)
 print(value)  # Output: The value stored in GSettings for the specified schema and key
 ```
-

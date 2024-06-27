@@ -1,5 +1,6 @@
-# Ptk Documentation: Button Widget
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
+# Ptk Documentation: Button Widget
 
 ## Button Widget
 
@@ -22,3 +23,4 @@ from libpardus import Ptk
 
 # Create a Button instance with a label and an optional icon
 button = Ptk.Button(label="Click Me", icon="my-icon",frame=True)
+```

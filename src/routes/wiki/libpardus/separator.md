@@ -1,3 +1,5 @@
+#### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
+
 # Ptk Documentation: Separator Widget
 
 ## Separator Widget
@@ -22,3 +24,4 @@ separator_horizontal = Ptk.Separator(orientation="horizontal")
 
 # Create a vertical separator
 separator_vertical = Ptk.Separator(orientation="vertical")
+```
