@@ -1,3 +1,18 @@
+<svelte:head>
+
+<title>Ptk Documentation: App Widget</title>
+<meta name="description" content="Learn about the App widget in Ptk, responsible for managing application instances and main window properties. Explore its parameters such as application ID, title, window dimensions, and CSS file path to customize and enhance your GTK+ applications.">
+<meta property="og:title" content="Ptk Documentation: App Widget">
+<meta property="og:description" content="Learn about the App widget in Ptk, responsible for managing application instances and main window properties. Explore its parameters such as application ID, title, window dimensions, and CSS file path to customize and enhance your GTK+ applications.">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:url" content="https://pardus.github.io/wiki/libpardus/app">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ptk Documentation: App Widget">
+<meta name="twitter:description" content="Learn about the App widget in Ptk, responsible for managing application instances and main window properties. Explore its parameters such as application ID, title, window dimensions, and CSS file path to customize and enhance your GTK+ applications.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+
+</svelte:head>
+
 #### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Ptk Documentation: App Widget

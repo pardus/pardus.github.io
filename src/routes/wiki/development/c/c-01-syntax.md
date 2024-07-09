@@ -1,3 +1,20 @@
+<svelte:head>
+
+  <title>C Syntax</title>
+  <meta name="description" content="Learn about C syntax including compiling, commenting, indentation, variables, arrays, and more. Get started with C programming." />
+  <meta name="keywords" content="C programming, C syntax, tutorial, compiler, gcc, clang, variables, arrays, commenting, indentation, programming guide" />
+  <meta name="author" content="Aliriza Keskin" />
+  <meta property="og:title" content="C Syntax" />
+  <meta property="og:description" content="Learn about C syntax including compiling, commenting, indentation, variables, arrays, and more. Get started with C programming." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://localhost:4173/wiki/development/c/c-01-syntax" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="C Syntax" />
+  <meta name="twitter:description" content="Learn about C syntax including compiling, commenting, indentation, variables, arrays, and more. Get started with C programming." />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg" />
+</svelte:head>
+
 #### 2024.05.20 - [Aliriza Keskin](https://github.com/sulincix)
 
 # C Syntax

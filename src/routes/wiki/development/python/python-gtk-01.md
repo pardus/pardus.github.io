@@ -1,3 +1,22 @@
+<svelte:head>
+
+  <title>Utilizing GTK Containers for Linux GUI Application Development with Python</title>
+  <meta name="description" content="Learn how to utilize GTK containers for developing Linux GUI applications using Python and GTK4. Explore box, grid, stack, and paned containers to enhance your application's layout and user experience." />
+  <meta name="keywords" content="GTK containers, GTK4, Python, Linux GUI applications, box container, grid container, stack container, paned container, GTK4 tutorial, GTK4 documentation" />
+  <meta name="author" content="Osman Coskun" />
+  <meta property="og:title" content="Utilizing GTK Containers for Linux GUI Application Development with Python" />
+  <meta property="og:description" content="Learn how to utilize GTK containers for developing Linux GUI applications using Python and GTK4. Explore box, grid, stack, and paned containers to enhance your application's layout and user experience." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://pardus.github.io/wiki/development/python/python-gtk-01" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/python-gtk-01-1.png" />
+  <meta property="article:published_time" content="2023-05-26" />
+  <meta property="article:author" content="https://github.com/osmancoskun" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Utilizing GTK Containers for Linux GUI Application Development with Python" />
+  <meta name="twitter:description" content="Learn how to utilize GTK containers for developing Linux GUI applications using Python and GTK4. Explore box, grid, stack, and paned containers to enhance your application's layout and user experience." />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/python-gtk-01-1.png" />
+</svelte:head>
+
 #### 2023.05.26 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Utilizing GTK Containers for Linux GUI Application Development with Python

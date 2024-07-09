@@ -1,3 +1,19 @@
+<svelte:head>
+
+<title>Ptk Documentation: ToggleButton Widget</title>
+<meta name="description" content="Explore the ToggleButton widget in Ptk, a subclass of Gtk.ToggleButton with functionality for creating a button that can be toggled between two states (on and off). Learn its parameters and basic usage with code snippets.">
+<meta property="og:title" content="Ptk Documentation: ToggleButton Widget">
+<meta property="og:description" content="Explore the ToggleButton widget in Ptk, a subclass of Gtk.ToggleButton with functionality for creating a button that can be toggled between two states (on and off). Learn its parameters and basic usage with code snippets.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://pardus.github.io/wiki/libpardus/toggleButton">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:image:alt" content="Pardus Logo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ptk Documentation: ToggleButton Widget">
+<meta name="twitter:description" content="Explore the ToggleButton widget in Ptk, a subclass of Gtk.ToggleButton with functionality for creating a button that can be toggled between two states (on and off). Learn its parameters and basic usage with code snippets.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 #### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Ptk Documentation: ToggleButton Widget

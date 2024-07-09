@@ -1,3 +1,17 @@
+<svelte:head>
+
+<title>Why is an Identity Management System Necessary? - Engerek</title>
+<meta name="description" content="Learn why an identity management system like Engerek is crucial for public institutions, universities, and large organizations to manage user accounts securely and efficiently.">
+<meta property="og:title" content="Why is an Identity Management System Necessary? - Engerek">
+<meta property="og:description" content="Discover the importance of identity management systems in public institutions, universities, and large organizations, focusing on Engerek's features and benefits.">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:url" content="https://pardus.github.io/wiki/projects/engerek">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why is an Identity Management System Necessary? - Engerek">
+<meta name="twitter:description" content="Discover the importance of identity management systems in public institutions, universities, and large organizations, focusing on Engerek's features and benefits.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 ## Why is an Identity Management System Necessary?
 
 In general, in public institutions, universities, large commercial institutions, the management of user accounts in IT systems, the correct and timely definition of authorization roles in the systems, the closure of accounts in cases of retirement, separation, assignment, promotion, or removal of old authorizations, the determination of passwords by administrators, and also the control of authorizations and accounts. There are serious problems such as the uncontrollability of these movements. Such situations can lead to serious data leaks. With the Identity Management system, it is possible to increase security, to solve the above problems, and to reduce time and labor costs by making the management of user accounts centralized and more secure.

@@ -1,3 +1,17 @@
+<svelte:head>
+
+<title>Ptk Documentation: Label Widget</title>
+<meta name="description" content="Explore the Label widget in Ptk, a subclass of Gtk.Label that allows setting properties such as plain text label, Pango markup, ellipsize mode, text alignment, and line count. Learn how to create and configure Label instances to display text in GTK+ applications.">
+<meta property="og:title" content="Ptk Documentation: Label Widget">
+<meta property="og:description" content="Explore the Label widget in Ptk, a subclass of Gtk.Label that allows setting properties such as plain text label, Pango markup, ellipsize mode, text alignment, and line count. Learn how to create and configure Label instances to display text in GTK+ applications.">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:url" content="https://pardus.github.io/wiki/libpardus/label">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ptk Documentation: Label Widget">
+<meta name="twitter:description" content="Explore the Label widget in Ptk, a subclass of Gtk.Label that allows setting properties such as plain text label, Pango markup, ellipsize mode, text alignment, and line count. Learn how to create and configure Label instances to display text in GTK+ applications.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 #### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Ptk Documentation: Label Widget

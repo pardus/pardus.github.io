@@ -1,8 +1,22 @@
+<svelte:head>
+
+<title>Introducing LibPardus: Your Python Gateway to the Pardus Universe</title>
+<meta name="description" content="Explore LibPardus, an innovative Python library designed as a comprehensive wrapper around gi for seamless integration with Pardus's GObject-based libraries. Learn about its features, benefits, and how to get started building applications on the Pardus platform.">
+<meta property="og:title" content="Introducing LibPardus: Your Python Gateway to the Pardus Universe">
+<meta property="og:description" content="Explore LibPardus, an innovative Python library designed as a comprehensive wrapper around gi for seamless integration with Pardus's GObject-based libraries. Learn about its features, benefits, and how to get started building applications on the Pardus platform.">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:url" content="https://pardus.github.io/wiki/libpardus">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Introducing LibPardus: Your Python Gateway to the Pardus Universe">
+<meta name="twitter:description" content="Explore LibPardus, an innovative Python library designed as a comprehensive wrapper around gi for seamless integration with Pardus's GObject-based libraries. Learn about its features, benefits, and how to get started building applications on the Pardus platform.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 #### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Introducing LibPardus: Your Python Gateway to the Pardus Universe
 
-<img src="https://raw.githubusercontent.com/pardus/pardus.github.io/097d38fa01966c7a95164be9bd3e42dacfc0080f/src/lib/assets/logo.svg" alt="pardus" width="200"/>
+<img src="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg" alt="pardus" width="200"/>
 
 > _"Explore the vast realms of Pardus with ease and efficiency using LibPardus, Python library designed as a comprehensive wrapper around gi."_
 

@@ -1,3 +1,19 @@
+<svelte:head>
+
+<title>Ptk Documentation: Utils Functions</title>
+<meta name="description" content="Explore the Utils class in Ptk, containing utility functions such as val_to_variant, get_session, load_css, gsettings_set, and gsettings_get. Learn about their parameters, usage examples, and how they interact with Gtk and GLib libraries.">
+<meta property="og:title" content="Ptk Documentation: Utils Functions">
+<meta property="og:description" content="Explore the Utils class in Ptk, containing utility functions such as val_to_variant, get_session, load_css, gsettings_set, and gsettings_get. Learn about their parameters, usage examples, and how they interact with Gtk and GLib libraries.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://pardus.github.io/wiki/libpardus/utils">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:image:alt" content="Pardus Logo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ptk Documentation: Utils Functions">
+<meta name="twitter:description" content="Explore the Utils class in Ptk, containing utility functions such as val_to_variant, get_session, load_css, gsettings_set, and gsettings_get. Learn about their parameters, usage examples, and how they interact with Gtk and GLib libraries.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 #### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Ptk Documentation: Utils Functions

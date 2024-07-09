@@ -1,3 +1,22 @@
+<svelte:head>
+
+  <title>Developing Linux GUI Applications with Python and GTK4</title>
+  <meta name="description" content="Learn how to develop Linux GUI applications using Python and GTK4. Explore core concepts, set up your environment, build your first application, and more." />
+  <meta name="keywords" content="Python, GTK4, Linux GUI applications, GTK4 tutorial, GTK4 documentation, GUI development, cross-platform GUI, desktop applications" />
+  <meta name="author" content="Osman Coskun" />
+  <meta property="og:title" content="Developing Linux GUI Applications with Python and GTK4" />
+  <meta property="og:description" content="Learn how to develop Linux GUI applications using Python and GTK4. Explore core concepts, set up your environment, build your first application, and more." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://pardus.github.io/wiki/development/python/python-gtk-00" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/python-gtk-00-1.png" />
+  <meta property="article:published_time" content="2023-05-12" />
+  <meta property="article:author" content="https://github.com/osmancoskun" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Developing Linux GUI Applications with Python and GTK4" />
+  <meta name="twitter:description" content="Learn how to develop Linux GUI applications using Python and GTK4. Explore core concepts, set up your environment, build your first application, and more." />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/python-gtk-00-1.png" />
+</svelte:head>
+
 #### 2023.05.12 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Developing Linux GUI Applications with Python and GTK4

@@ -1,3 +1,17 @@
+<svelte:head>
+
+<title>Ptk Documentation: Image Widget</title>
+<meta name="description" content="Learn about the Image widget in Ptk, a subclass of Gtk.Image that allows setting properties such as image file path, icon name, icon size, and pixel size. Explore how to create and configure Image instances to display images and icons in GTK+ applications.">
+<meta property="og:title" content="Ptk Documentation: Image Widget">
+<meta property="og:description" content="Learn about the Image widget in Ptk, a subclass of Gtk.Image that allows setting properties such as image file path, icon name, icon size, and pixel size. Explore how to create and configure Image instances to display images and icons in GTK+ applications.">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:url" content="https://pardus.github.io/wiki/libpardus/image">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ptk Documentation: Image Widget">
+<meta name="twitter:description" content="Learn about the Image widget in Ptk, a subclass of Gtk.Image that allows setting properties such as image file path, icon name, icon size, and pixel size. Explore how to create and configure Image instances to display images and icons in GTK+ applications.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 #### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Ptk Documentation: Image Widget

@@ -1,3 +1,17 @@
+<svelte:head>
+
+<title>Ahtapot BSGS - Multi-Layer Integrated Cyber Security System</title>
+<meta name="description" content="Ahtapot BSGS is a multi-layer integrated cyber security system supporting the Pardus/Linux national operating system project. It is 100% free software committed to cyber security needs of public institutions and organizations.">
+<meta property="og:title" content="Ahtapot BSGS - Multi-Layer Integrated Cyber Security System">
+<meta property="og:description" content="Ahtapot BSGS is a multi-layer integrated cyber security system supporting the Pardus/Linux national operating system project. It is 100% free software committed to cyber security needs of public institutions and organizations.">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:url" content="https://pardus.github.io/wiki/projects/ahtapot">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ahtapot BSGS - Multi-Layer Integrated Cyber Security System">
+<meta name="twitter:description" content="Ahtapot BSGS is a multi-layer integrated cyber security system supporting the Pardus/Linux national operating system project. It is 100% free software committed to cyber security needs of public institutions and organizations.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 ## Ahtapot BSGS
 
 Ahtapot BSGS is a multi-layer integrated cyber security system.
@@ -14,4 +28,5 @@ The priority of Ahtapot BSGS is the cyber security needs of public institutions 
 Others will be allowed to create distributions containing Ahtapot BSGS components, and a high-quality integrated system without any legal restrictions hindering such uses will continue to be developed to support these goals.
 
 ### Ahtapot BSGS Team
+
 #### Ahtapot BSGS Free Software Manifesto

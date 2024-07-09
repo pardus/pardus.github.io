@@ -1,3 +1,17 @@
+<svelte:head>
+
+<title>Ptk Documentation: Box Widget</title>
+<meta name="description" content="Explore the Box widget in Ptk, based on Gtk.Box. Learn how to arrange child widgets horizontally or vertically, set properties like orientation, spacing, and homogeneity, and create flexible layouts for GTK+ applications.">
+<meta property="og:title" content="Ptk Documentation: Box Widget">
+<meta property="og:description" content="Explore the Box widget in Ptk, based on Gtk.Box. Learn how to arrange child widgets horizontally or vertically, set properties like orientation, spacing, and homogeneity, and create flexible layouts for GTK+ applications.">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:url" content="https://pardus.github.io/wiki/libpardus/box">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ptk Documentation: Box Widget">
+<meta name="twitter:description" content="Explore the Box widget in Ptk, based on Gtk.Box. Learn how to arrange child widgets horizontally or vertically, set properties like orientation, spacing, and homogeneity, and create flexible layouts for GTK+ applications.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 #### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Ptk Documentation: Box Widget

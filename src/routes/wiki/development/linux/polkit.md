@@ -1,3 +1,22 @@
+<svelte:head>
+
+  <title>Using Polkit to Perform Root Privilege Actions in a GTK Application Without Asking for Root Password</title>
+  <meta name="description" content="Learn how to use Polkit to perform actions that require root privileges in a GTK application without prompting for the root password." />
+  <meta name="keywords" content="Polkit, PolicyKit, root privileges, GTK application, Linux, root password, administrative tasks, PyGObject, pkexec" />
+  <meta name="author" content="Emin Fedar" />
+  <meta property="og:title" content="Using Polkit to Perform Root Privilege Actions in a GTK Application Without Asking for Root Password" />
+  <meta property="og:description" content="Learn how to use Polkit to perform actions that require root privileges in a GTK application without prompting for the root password." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://pardus.github.io/using-polkit-for-root-privilege-actions" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg" />
+  <meta property="article:published_time" content="2024-05-30" />
+  <meta property="article:author" content="https://github.com/eminfedar" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Using Polkit to Perform Root Privilege Actions in a GTK Application Without Asking for Root Password" />
+  <meta name="twitter:description" content="Learn how to use Polkit to perform actions that require root privileges in a GTK application without prompting for the root password." />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg" />
+</svelte:head>
+
 #### 2024.05.30 - [Emin Fedar](https://github.com/eminfedar)
 
 # Using Polkit to Perform Root Privilege Actions in a GTK Application Without Asking for Root Password

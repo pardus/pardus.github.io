@@ -21,7 +21,7 @@ export default defineConfig({
         dev: !production,
         hydratable: !!process.env.ROUTIFY_SSR_ENABLE,
       },
-      extensions: [".md", ".svelte"],
+      extensions: [".md", ".svelte", ".svx"],
       preprocess: [mdsvex(mdsvexConfig)],
     }),
   ],

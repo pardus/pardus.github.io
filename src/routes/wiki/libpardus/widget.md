@@ -1,3 +1,19 @@
+<svelte:head>
+
+<title>Ptk Documentation: Widget</title>
+<meta name="description" content="Explore the Widget class in Ptk, a Python library that simplifies the usage of GObject-based widgets by allowing setting multiple properties at once. Learn about its parameters like css, name, hexpand, vexpand, height, width, halign, valign, margins, and basic usage as a base class for other Ptk widgets.">
+<meta property="og:title" content="Ptk Documentation: Widget">
+<meta property="og:description" content="Explore the Widget class in Ptk, a Python library that simplifies the usage of GObject-based widgets by allowing setting multiple properties at once. Learn about its parameters like css, name, hexpand, vexpand, height, width, halign, valign, margins, and basic usage as a base class for other Ptk widgets.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://pardus.github.io/wiki/libpardus/widget">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:image:alt" content="Pardus Logo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ptk Documentation: Widget">
+<meta name="twitter:description" content="Explore the Widget class in Ptk, a Python library that simplifies the usage of GObject-based widgets by allowing setting multiple properties at once. Learn about its parameters like css, name, hexpand, vexpand, height, width, halign, valign, margins, and basic usage as a base class for other Ptk widgets.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 #### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Ptk Documentation: Widget

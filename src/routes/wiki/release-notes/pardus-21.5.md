@@ -1,3 +1,17 @@
+<svelte:head>
+
+<title>Pardus 21.5 Release Notes</title>
+<meta name="description" content="Explore the release notes for Pardus 21.5, featuring upgrades to Firefox 102.10 and Linux Kernel 5.10.0-22. Discover improvements in applications like Pardus Software Center, Pardus Xfce Lightdm Greeter, Pardus My Computer, and more. View and preview support for webp images in Pardus XFCE and GNOME desktop environments, addition of new corporate applications, updates to external applications, and over 150 system patches and updates.">
+<meta property="og:title" content="Pardus 21.5 Release Notes">
+<meta property="og:description" content="Explore the release notes for Pardus 21.5, featuring upgrades to Firefox 102.10 and Linux Kernel 5.10.0-22. Discover improvements in applications like Pardus Software Center, Pardus Xfce Lightdm Greeter, Pardus My Computer, and more. View and preview support for webp images in Pardus XFCE and GNOME desktop environments, addition of new corporate applications, updates to external applications, and over 150 system patches and updates.">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:url" content="https://pardus.github.io/wiki/release-notes/pardus-21.5">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pardus 21.5 Release Notes">
+<meta name="twitter:description" content="Explore the release notes for Pardus 21.5, featuring upgrades to Firefox 102.10 and Linux Kernel 5.10.0-22. Discover improvements in applications like Pardus Software Center, Pardus Xfce Lightdm Greeter, Pardus My Computer, and more. View and preview support for webp images in Pardus XFCE and GNOME desktop environments, addition of new corporate applications, updates to external applications, and over 150 system patches and updates.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 # Pardus 21.5 Release Notes
 
 - The default web browser, Firefox, has been upgraded to version 102.10.

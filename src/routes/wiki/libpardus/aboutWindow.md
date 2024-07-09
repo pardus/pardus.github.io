@@ -1,3 +1,17 @@
+<svelte:head>
+
+<title>Ptk Documentation: AboutWindow Widget</title>
+<meta name="description" content="Learn about the AboutWindow widget in Ptk, a graphical window used for displaying application information like name, version, developer details, license, and more. Explore its parameters and usage examples to integrate it into your GTK+ applications.">
+<meta property="og:title" content="Ptk Documentation: AboutWindow Widget">
+<meta property="og:description" content="Learn about the AboutWindow widget in Ptk, a graphical window used for displaying application information like name, version, developer details, license, and more. Explore its parameters and usage examples to integrate it into your GTK+ applications.">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:url" content="https://pardus.github.io/wiki/libpardus/aboutWindow">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ptk Documentation: AboutWindow Widget">
+<meta name="twitter:description" content="Learn about the AboutWindow widget in Ptk, a graphical window used for displaying application information like name, version, developer details, license, and more. Explore its parameters and usage examples to integrate it into your GTK+ applications.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 #### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Ptk Documentation: AboutWindow Widget

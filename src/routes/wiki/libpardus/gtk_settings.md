@@ -1,3 +1,17 @@
+<svelte:head>
+
+<title>Ptk Documentation: Gtk and Adw Settings</title>
+<meta name="description" content="Explore the Gtk and Adw settings dictionary in Ptk, providing mappings for commonly used Gtk orientations and alignments. Learn how to use human-readable names to set properties like horizontal orientation, vertical orientation, fill, start, end, center, and baseline alignment in your GTK+ applications.">
+<meta property="og:title" content="Ptk Documentation: Gtk and Adw Settings">
+<meta property="og:description" content="Explore the Gtk and Adw settings dictionary in Ptk, providing mappings for commonly used Gtk orientations and alignments. Learn how to use human-readable names to set properties like horizontal orientation, vertical orientation, fill, start, end, center, and baseline alignment in your GTK+ applications.">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:url" content="https://pardus.github.io/wiki/libpardus/gtk_settings">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ptk Documentation: Gtk and Adw Settings">
+<meta name="twitter:description" content="Explore the Gtk and Adw settings dictionary in Ptk, providing mappings for commonly used Gtk orientations and alignments. Learn how to use human-readable names to set properties like horizontal orientation, vertical orientation, fill, start, end, center, and baseline alignment in your GTK+ applications.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 #### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Ptk Documentation: Gtk and Adw Settings

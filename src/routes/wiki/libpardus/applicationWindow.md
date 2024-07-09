@@ -1,3 +1,17 @@
+<svelte:head>
+
+<title>Ptk Documentation: ApplicationWindow Widget</title>
+<meta name="description" content="Explore the ApplicationWindow widget in Ptk, a subclass of Gtk.ApplicationWindow. Learn how to manage application window properties such as title, custom title bar widget, icon, and dimensions to create rich GTK+ applications.">
+<meta property="og:title" content="Ptk Documentation: ApplicationWindow Widget">
+<meta property="og:description" content="Explore the ApplicationWindow widget in Ptk, a subclass of Gtk.ApplicationWindow. Learn how to manage application window properties such as title, custom title bar widget, icon, and dimensions to create rich GTK+ applications.">
+<meta property="og:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+<meta property="og:url" content="https://pardus.github.io/wiki/libpardus/applicationWindow">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ptk Documentation: ApplicationWindow Widget">
+<meta name="twitter:description" content="Explore the ApplicationWindow widget in Ptk, a subclass of Gtk.ApplicationWindow. Learn how to manage application window properties such as title, custom title bar widget, icon, and dimensions to create rich GTK+ applications.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pardus/pardus.github.io/main/src/lib/assets/logo.svg">
+</svelte:head>
+
 #### 2024.06.27 - [Osman Coskun](https://github.com/osmancoskun)
 
 # Ptk Documentation: ApplicationWindow Widget
