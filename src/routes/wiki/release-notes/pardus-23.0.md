@@ -14,7 +14,7 @@
 
 # Pardus 23 Release Notes
 
-![ardus-wallpaper](https://www.pardus.org.tr/wp-content/uploads/2023/08/ayyildiz-2-1024x252.webp)
+![pardus-wallpaper](https://www.pardus.org.tr/wp-content/uploads/2023/08/ayyildiz-2-1024x252.webp)
 <br>
 Pardus 23 “Ay Yıldız” is a special edition inspired by the crescent and star, one of Turkey’s national symbols. This version aims to offer its users the most up-to-date technology as well as ease of use with new applications, with its long-term support program and stable Linux 6.1 kernel version. Pardus Gnome Greeter, Padus Xfce Tweaks, Pardus Updater and many other innovations and conveniences that come with Pardus 23 “Ay Yıldız” are waiting for you.
 
