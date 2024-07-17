@@ -41,7 +41,7 @@
         url: "https://apps.pardus.org.tr/app/pardus-java-installer",
       },
       {
-        icon: PardusSoftware,
+        icon: "https://apps.pardus.org.tr/files/appicons/pardus-software.svg",
         title: "Software Center",
         description: "Install, remove, and update applications from our store.",
         url: "https://apps.pardus.org.tr",
