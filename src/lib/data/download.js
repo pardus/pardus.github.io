@@ -5,44 +5,44 @@ export const datas = [
     downloadLabel: "Desktop",
     iso: [
       {
-        label: "Pardus 23.1 Xfce",
-        url: "http://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.1-XFCE-amd64.iso",
-        size: "2.4 GB",
-        keys: [
-          {
-            label: "md5",
-            value: "27d041b79d220213f0194102e667c21c",
-          },
-          {
-            label: "sha256",
-            value:
-              "944db75335e71a6e42e79973f059888e79f8d114cca1864b2af51cd51de1da67",
-          },
-          {
-            label: "sha512",
-            value:
-              "2fcbc79b688b2d5202db2d9bf3402a0ce24e78d36dbddce9897621e0223e7acd1565633939fe92b74f0d3870d16ca4932a0be07c11594455836662da998c72f1",
-          },
-        ],
-      },
-      {
-        label: "Pardus 23.1 Gnome",
-        url: "http://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.1-GNOME-amd64.iso",
+        label: "Pardus 23.2 XFCE",
+        url: "https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.2-XFCE-amd64.iso",
         size: "2.6 GB",
         keys: [
           {
             label: "md5",
-            value: "e9f2f1dc5f8778f8bf741cadb7a8c329",
+            value: "fbddc273d617e3dfa146125629faf3be",
           },
           {
             label: "sha256",
             value:
-              "e6ead54e1e64b48b9d72106fd8ebd0169003cefed0b389e52a445ccc3f723c7d",
+              "ea7e051ac4ca5841e1f5f78dd6bd9cc303a8273700628dc7abce6308bac25034",
           },
           {
             label: "sha512",
             value:
-              "086473f594fbc252b0e915fa6c36d26a21310c8904a02796941a9917235495d66f4899c9b5a2d9c381870637a8514f972645c792629829591b868b8e0635737f",
+              "260cd7f7f34fdd74f67c42f1c98aef80bedca20e789f6714426a68039c881775f38e0d7e7b02f8d89f731786e5b7b9d220324e04c56fe45f015e143de67ba7c8",
+          },
+        ],
+      },
+      {
+        label: "Pardus 23.2 Gnome",
+        url: "https://indir.pardus.org.tr/ISO/Pardus23/Pardus-23.2-GNOME-amd64.iso",
+        size: "2.7 GB",
+        keys: [
+          {
+            label: "md5",
+            value: "a1c757442e9c2bf19cdef0759215b7d2",
+          },
+          {
+            label: "sha256",
+            value:
+              "7c2b121f39ea0f617a8b3a8baf09842ae63bd3c872e32d8ca8e87f866b9a7096",
+          },
+          {
+            label: "sha512",
+            value:
+              "c1ee9d84af82c46aa6aa5fe67af95d392f8cbd2602bc2043095428bac70698298201abfa3f98057eaa0fdc09f5d2bb5cbdf74aabeb88da08fbcafb2480bbbb23",
           },
         ],
       },
@@ -97,7 +97,37 @@ export const datas = [
     ],
   },
   {
-    label: "Pardus Backports",
+    label: "Pardus 23",
+
+    downloadLabel: "Desktop",
+
+    iso: [
+      {
+        label: "Pardus 23.2 Xfce Backports",
+        url: "https://indir.pardus.org.tr/ISO/Pardus23backports/Pardus-23.2-XFCE-backports-amd64.iso",
+        size: "2.6 GB",
+        keys: [
+          {
+            label: "md5",
+            value: "85a1327c3bafa7fc101319b223c7de52",
+          },
+        ],
+      },
+      {
+        label: "Pardus 23.2 Gnome Backports",
+        url: "https://indir.pardus.org.tr/ISO/Pardus21backports/Pardus-23.2-GNOME-backports-amd64.iso",
+        size: "2.6 GB",
+        keys: [
+          {
+            label: "md5",
+            value: "1f8208b71bd70f12aba42f0a605f0831",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    label: "Pardus 21",
 
     downloadLabel: "Desktop",
 
