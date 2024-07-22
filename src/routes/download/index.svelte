@@ -20,8 +20,11 @@
           />
           <div class="flex justify-between gap-2">
             {#each iso.keys as key, keyindex}
-              {@const modalID = `keymodal${isoindex}-${keyindex}`}
-              <dialog id={modalID} bind:this={modals[modalID]} class="modal">
+              <dialog
+                id={key.value}
+                bind:this={modals[key.value]}
+                class="modal"
+              >
                 <div class="modal-box">
                   <form method="dialog">
                     <button
@@ -50,7 +53,7 @@
 
               <button
                 on:click={() => {
-                  modals[modalID].showModal();
+                  modals[key.value].showModal();
                 }}
                 class="border rounded dark:border-slate-500 p-5 flex gap-2 justify-center w-full
               hover:bg-slate-200 dark:hover:bg-blue-400 dark:hover:text-black"
