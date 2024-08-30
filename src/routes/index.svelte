@@ -6,8 +6,8 @@
 </script>
 
 <h1 class="text-3xl text-center mt-16 mx-1">
-  Pardus is a Debian based stable operating system. <br />It combines stability,
-  modern and end-user needs.
+  Pardus is an operating system based on Debian stable. <br />It combines
+  stability, modern and end-user needs.
 </h1>
 <div
   class="flex flex-col md:flex-row max-w-5xl justify-evenly items-center mt-16"
