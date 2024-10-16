@@ -3,7 +3,7 @@
   let routes = ["download", "contact", "wiki"];
 </script>
 
-<div class="navbar bg-base-100 shadow-lg rounded-lg">
+<div class="navbar bg-base-100 shadow-md rounded-lg">
   <ul class="flex-1 menu menu-horizontal">
     <li>
       <a
@@ -39,9 +39,10 @@
             ></path></svg
           >
         </div>
+        <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
         <ul
           tabindex="0"
-          class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box"
+          class="dropdown-content z-[1] menu p-2 shadow-md bg-base-100 rounded-box"
         >
           {#each routes as route}
             <li class="block md:hidden capitalize">

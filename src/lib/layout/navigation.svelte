@@ -23,13 +23,15 @@
     <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"
     ></label>
     <ul class="menu menu-xs h-screen bg-base-200 max-w-xs w-full border-right">
-      <li class="flex-1">
-        {#if urls?.length > 0}
-          {#each urls as url}
-            <WikiLink NodeURLs={url} />
-          {/each}
-        {/if}
-      </li>
+      <div class="h-[calc(100vh-4rem)] overflow-y-auto">
+        <li class="md:flex-1">
+          {#if urls?.length > 0}
+            {#each urls as url}
+              <WikiLink NodeURLs={url} />
+            {/each}
+          {/if}
+        </li>
+      </div>
       <li>
         <a href="/" class="w-full flex justify-center btn btn-info">
           <IconArrowBackUp class="w-5 h-5" />

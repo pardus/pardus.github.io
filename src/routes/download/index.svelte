@@ -8,7 +8,7 @@
 <main class="mt-10">
   <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-5">
     {#each DownloadPageData as data}
-      <div class="card card-body shadow-xl rounded-md dark:bg-slate-800">
+      <div class="card card-body shadow-md rounded-md dark:bg-slate-800">
         <h1 class="font-bold text-xl">{data.label}</h1>
         <h1>ISO Files</h1>
         {#each data.iso as iso, isoindex}
