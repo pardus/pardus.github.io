@@ -54,7 +54,6 @@ We express our sincere appreciation to the independent security researchers and 
 
 | Researcher / Katkıcı | Finding / Area | Date | Acknowledgments |
 |---|---|:---:|---|
-| **Çağrı Eser** | `pardus-update` LPE Research (CVE-2026-5140) | 2026 | Responsible disclosure and detailed writeup on Polkit script argument handling. |
 
 *(Diğer araştırmacılar ve katkıcılar koordineli bildirimlerin ardından bu listeye eklenecektir.)*
 
