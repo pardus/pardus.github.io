@@ -27,6 +27,7 @@ nav:
   - Screenshot: screenshot/screenshot.md
   - Lifecycle: lifecycle.md
   - Contact: contact.md
+  - Security: security.md
   - Wiki:
     - Linux:
       - Polkit: wiki/linux/polkit.md
