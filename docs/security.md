@@ -54,7 +54,6 @@ We express our sincere appreciation to the independent security researchers and 
 
 | Researcher / Katkıcı | Finding / Area | Date | Acknowledgments |
 |---|---|:---:|---|
-| **Sevban Dönmez** ([@jankesec](https://github.com/jankesec)) | Core Desktop & Polkit Security Hardening (`pardus-about`, `pardus-update`, `pardus-software`, `pardus-usb-formatter`, `pardus-java-installer`, `pardus-lightdm-greeter`, `pardus-power-manager`, `pardus-hotspot`, `pardus-package-installer`, `pardus-lib-xfce`) | 2026 | Comprehensive research, 13+ defensive pull requests, and architectural hardening (CWE-78, CWE-250, CWE-22, CWE-116). |
 | **Çağrı Eser** | `pardus-update` LPE Research (CVE-2026-5140) | 2026 | Responsible disclosure and detailed writeup on Polkit script argument handling. |
 
 *(Diğer araştırmacılar ve katkıcılar koordineli bildirimlerin ardından bu listeye eklenecektir.)*
